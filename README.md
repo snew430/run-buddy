@@ -12,3 +12,5 @@ https://lernantino.github.io/run-buddy/
 
 ## Contribution
 Wade with ♥︎ by Sean
+
+# Run Buddy Inc.
