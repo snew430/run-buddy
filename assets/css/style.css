@@ -1,8 +1,11 @@
+/* Entire Page */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Navigation */
 
 header {
     padding: 20px 35px;
@@ -42,34 +45,13 @@ header nav ul li a {
     font-size: 22px;
 }
 
-footer {
-    background: #fce138;
-    width: 100%;
-    padding: 40px 35px;
-}
-
-footer h2 {
-    display: inline;
-    color: #024e76;
-    font-size: 30px;
-    margin: 0;
-}
-
-footer div{
-    float: right;
-    line-height: 1.5;
-    text-align: right;
-}
-
-footer a {
-    color: #024e76;
-}
+/* Jumbotron */
 
 section {
     padding: 60px;
 }
-.hero {
-    background-image: url("../images/hero-bg.jpeg");
+.hero-cta {
+    background-image: url("../images/hero-bg.jpg");
     height: 600px;
     background-size: cover;
     background-position: center;
@@ -84,6 +66,7 @@ section {
     position: absolute;
     bottom: 120px;
     right: 140px;
+    border-radius: 10px;
 }
 
 .hero-form h3 {
@@ -116,6 +99,8 @@ section {
     font-size: 16px;
 }
 
+
+/* What We Do */
 .intro {
     text-align: center;
 }
@@ -128,6 +113,7 @@ section {
     margin: 0 auto;
 }
 
+/* What you Do */
 .steps {
     text-align: center;
     background: #fce138;
@@ -268,4 +254,29 @@ section {
     font-weight: normal;
     font-size: 42px;
     font-style: italic;
+}
+
+/* Footer */
+
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+}
+
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div{
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a {
+    color: #024e76;
 }
